@@ -1,0 +1,66 @@
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  position: relative;
+  z-index: -1;
+  margin: auto;
+}
+
+.list__items {
+  color: #ffffff;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 10;
+  width: 1100px;
+  margin: 80px auto;
+}
+
+.list__items_color-dark {
+  color: #000000;
+  width: 1200px;
+}
+
+.kaufman__title {
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 90px auto 20px;
+  text-align: center;
+  width: 60%;
+  z-index: 2;
+}
+
+.kaufman__subtitle {
+  width: 60%;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  z-index: 2;
+}
+
+.kaufman__triangle {
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 400px solid #2f80ed;
+  transform: rotate(-10deg);
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.kaufman__item {
+  width: 200px;
+  line-height: 20px;
+  margin: auto;
+}

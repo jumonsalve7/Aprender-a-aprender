@@ -1,0 +1,33 @@
+.content__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__two-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  gap: 60px;
+}
+
+.content__two-columns_brief {
+  margin-top: 30px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  width: 175px;
+  color: #2f80ed;
+}
+
+.content__two-columns_main-text {
+  min-width: 784px;
+  gap: 30px;
+  width: 80%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.span-accent {
+  font-weight: bold;
+}

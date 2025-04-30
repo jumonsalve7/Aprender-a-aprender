@@ -1,0 +1,49 @@
+.footer__columns {
+  min-height: 350px;
+  background-color: #000000;
+  display: flex;
+  color: #ffffff;
+  margin: auto;
+  justify-content: space-around;
+  padding: 30px;
+}
+.footer__column {
+  margin: 75px auto 40px;
+}
+.footer__column--content-copyright {
+  margin: 100px;
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+}
+
+.footer__logo--place {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.footer__list {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.footer__social-icons {
+  width: 26px;
+  height: 16px;
+}
+
+.footer__social-word {
+  line-height: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+}

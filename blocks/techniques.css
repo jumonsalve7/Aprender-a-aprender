@@ -1,0 +1,44 @@
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.techniques__cards {
+  display: flex;
+  width: 920px;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 100px;
+}
+
+.techniques__cards-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  width: 240px;
+  margin-top: 60px;
+}
+
+.techniques__card-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+}
+
+.techniques__cards-title {
+  margin-top: 43px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+}
+
+.techniques__cards-description {
+  text-align: justify;
+  margin-top: 16px;
+  line-height: 23px;
+  font-size: 18px;
+}
